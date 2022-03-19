@@ -40,40 +40,15 @@
 
 ### 3.5相关定时脚本
 > 注意: 以下脚本目录需替换为真实服务器上对应目录，定时脚本时间可自行调整
-#### 3.5.1美团脚本
-```sh
-#美团外卖订单查询脚本，从当前时间开始 每20分钟查询1次
-0,30 * * * * /usr/local/php7/bin/php /data/wwwroot/open_coupon_api/artisan meituan:order --type=4 --query=2
-
-#美团闪购订单查询脚本，从当前时间开始 每25分钟查询1次
-10,40 * * * * /usr/local/php7/bin/php /data/wwwroot/open_coupon_api/artisan meituan:order --type=6 --query=2
-```
-#### 3.5.2淘宝客订单脚本
-```sh
-#淘客定订单查询，每30分钟查询一次
-25,55 * * * * /usr/local/php7/bin/php /data/wwwroot/open_coupon_api/artisan tbk:order --query=4
-```
-```sh
-#淘客定订单查询，每10分钟查询一次
-10 * * * * /usr/local/php7/bin/php /data/wwwroot/open_coupon_api/artisan tbk:order --query=3
-```
-
-#### 3.5.3 点餐提醒脚本
+#### 3.5.1 点餐提醒脚本
 ```sh
 # 每分钟执行一次
 * * * * * /usr/local/php7/bin/php /data/wwwroot/open_coupon_api/artisan dinner:notice clock1
 * * * * * /usr/local/php7/bin/php /data/wwwroot/open_coupon_api/artisan dinner:notice clock2
 ```
-
-#### 3.5.4 聚推客订单查询
-```sh
-#淘客定订单查询，每30分钟查询一次
-20,50 * * * * /usr/local/php7/bin/php /data/wwwroot/open_coupon_api/artisan jutuike:order didi
-```
-
-## 5.关联项目
-- [服务端api](https://github.com/lxr9161/open_coupon_api)
-- [管理后台](https://github.com/lxr9161/open_coupon_admin)
+## 4.关联项目
+- [小程序](https://github.com/lxr9161/os-coupon-miniprogram)
+- [管理后台](https://github.com/lxr9161/os-coupon-admin)
 
 -----
 开源版可能存在一些问题，欢迎吐槽。也欢迎大家做提出一些建议或意见。
