@@ -61,6 +61,6 @@
 
 - 微信群
 <div>
-  <img src="https://user-images.githubusercontent.com/13703050/155838807-e26645d7-5754-48c3-a0d6-e325a7f62c20.JPG" width="250"/>
+   <img src="https://user-images.githubusercontent.com/13703050/159154826-834f55e3-c886-4b37-812f-5ae0ce249f57.JPG" width="250"/>
 </div>
 
