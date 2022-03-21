@@ -51,9 +51,13 @@
 开源版可能存在一些问题，欢迎吐槽。也欢迎大家做提出一些建议或意见。
 
 技术交流可以扫码添加我个人的微信，也可以扫码进微信群
+- 小程序
+<div>
+  <img src="https://user-images.githubusercontent.com/13703050/159318610-6ba05803-4930-4098-9266-384bc27b7285.jpg" width="250"/>
+</div>
+
 - 我个人的微信
 <div>
-  <img src="https://user-images.githubusercontent.com/13703050/155838535-741b3ac8-1e6e-48d2-936c-036eec90bb3b.JPG" width="250"/>
   <img src="https://user-images.githubusercontent.com/13703050/155838542-d63fefb9-7f1a-4e46-a47c-745cbff62c36.JPG" width="250"/>
 </div>
 
